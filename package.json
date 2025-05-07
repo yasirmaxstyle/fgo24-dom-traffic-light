@@ -1,14 +1,17 @@
 {
-  "name": "week4-dom-trafficlight",
+  "name": "fgo24-dom-traffic-light",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "live-server"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "traffic-light",
+    "dom-manipulation"
+  ],
+  "author": "yasirmaxstyle",
   "license": "ISC",
-  "description": "",
+  "description": "traffic light made with html, css, and dom javascript",
   "devDependencies": {
     "live-server": "^1.2.2"
   }
