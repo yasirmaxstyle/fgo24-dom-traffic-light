@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+body>div {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    margin: 50px;
+    gap: 20px;
+    padding: 20px;
+    width: fit-content;
+    background-color: #ebebeb;
+
+    &>div {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background-color: darkgray;
+    }
+}
